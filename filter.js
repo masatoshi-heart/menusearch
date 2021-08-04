@@ -10,17 +10,17 @@ function menuSearch(text) {
     searchSubItem(text, onlyMenu);
 }
 
-function searchSubItem(text, element) {
-    element.forEach(function (subelement) {
-        if ("subItems" in subelement) {
-            searchSubItem(text, subelement.subItems);
+function searchSubItem(text, menuArray) {
+    menuArray.forEach(function (element) {
+        if ("subItems" in element) {
+            searchSubItem(text, element.subItems);
             return;
         }
-        if (subelement.label.toLowerCase().indexOf(text.toLowerCase()) != -1) {
-            searchResult.push(subelement);
+        if (element.label.toLowerCase().indexOf(text.toLowerCase()) != -1) {
+            searchResult.push(element);
         }
     });
 }
 
-menuSearch('Dash');
+menuSearch('株');
 console.log(searchResult);
