@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Main",
+    "isTitle": true
+  },
+  {
+    "label": "Dashboard",
+    "icon": "home",
+    "link": "/dashboard",
+    "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+    "mncd": "0001"
+  },
+  {
+    "label": "Web Apps",
+    "isTitle": true
+  },
+  {
+    "label": "Email",
+    "icon": "mail",
+    "subItems": [
+      {
+        "label": "Inbox",
+        "link": "/apps/email/inbox",
+        "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+        "mncd": "0002"
+      },
+      {
+        "label": "Read",
+        "link": "/apps/email/read",
+        "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+        "mncd": "0003"
+      },
+      {
+        "label": "Compose",
+        "link": "/apps/email/compose",
+        "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+        "mncd": "0004"
+      }
+    ]
+  },
+  {
+    "label": "Item",
+    "icon": "message-square",
+    "subItems": [
+      {
+        "label": "A",
+        "subItems": [
+          {
+            "label": "Alerts",
+            "link": "/ui-components/alerts",
+            "mncd": "0005"
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "subItems": [
+          {
+            "label": "Badges",
+            "link": "/ui-components/badges",
+            "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+            "mncd": "0006"
+          },
+          {
+            "label": "Breadcrumbs",
+            "link": "/ui-components/breadcrumbs",
+            "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+            "mncd": "0007"
+          },
+          {
+            "label": "Buttons",
+            "link": "/ui-components/buttons",
+            "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+            "mncd": "0008"
+          },
+          {
+            "label": "Button group",
+            "link": "/ui-components/button-group",
+            "tooltip": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+            "mncd": "0009"
+          }
+        ]
+      }
+    ]
+  }
+]
